@@ -1,54 +1,93 @@
 
 @media(min-width:576px){
-    
+   
+ /*TOP*/  
+ 
+    .top {
+    padding: 200px 0 150px;
+    }
+
+    .top p{
+        font-size: 2rem;
+    }
     
 }
 
 
 @media(min-width:768px){
+  
+ /*GENERAL SETTINGS*/
+ 
+    body {
+    font-size: 1.15rem;
+    }
     
-    /*HEADER*/
-    
-    .navbar-light .navbar-nav .nav-link{
-    color:#333b46;
-    padding: 5px 10px;
-    border-bottom: 2px solid transparent;
-}
+ /*TOP*/  
+ 
+    .top {
+    padding: 250px 0 200px;
+    }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-item.active .nav-link
-{
-    background: transparent;
-    color: #E84C3D;
-    border-bottom: 2px solid #E84C3D;
-}
-
-.navbar-nav{
-    background: transparent;
-}
     
+    .top p{
+        font-size: 2.5rem;
+    }
     
-}
-
+} 
 
 
 @media(min-width:992px){
 
 /*HEADER*/
 
+    .navbar-brand{
+        font-size: 3rem;
+    }
 
-    
+    .nav-item {
+        background-color: transparent;
+        text-align: left;
+        margin-left: 8px;
+        border-bottom: none;
+    }
+ 
+ /*TOP*/  
+ 
+    .top {
+    padding: 350px 0 265px;
+    }
+ 
+    .top p{
+        font-size: 3rem;
+    }
+      
 }
 
 
 @media(min-width:1200px){
     
-    /*header*/
-       .navbar-light .navbar-nav .nav-link{
+/*GENERAL SETTINGS*/
 
-    padding: 5px 20px;
+    h2 {
+    font-size: 3.75rem;
+    }
 
-}
+/*HEADER*/
+
+    .nav-item {
+       margin-left: 15px;
+    } 
+    
+/*TOP*/  
+ 
+   .top {
+       padding: 400px 0 315px;
+    }
+   
+   .top p{
+       font-size: 4rem;
+    }
+   
 }
 
 
