@@ -160,6 +160,11 @@
     margin: 0;
     }
     
+ /* TEAM */  
+    .team article {
+    margin-bottom: 0;
+    }
+   
 /* PARALLAX */
 
     .parallax article {
