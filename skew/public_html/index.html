@@ -19,16 +19,15 @@
     </head>
     <body>
 
-        <header class="fixed-top py-lg-4" style="background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)">
+        <header class="fixed-top py-2 py-sm-3 py-md-4" style="background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light lato text-uppercase">
+                <nav class="navbar navbar-expand-xl navbar-light lato text-uppercase">
                     <a class="navbar-brand text-white" href="#">skewed</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav text-grey ml-lg-auto">
+                        <ul class="navbar-nav text-grey-b1 ml-xl-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#about">about us<span class="sr-only">(current)</span></a>
                             </li>
@@ -51,7 +50,6 @@
                                 <a class="nav-link" href="#achievements">achievements</a>
                             </li>
                         </ul>
-
                     </div>
                 </nav>
             </div><!-- CONTAINER end -->
@@ -61,13 +59,11 @@
 
             <section class="top" id="top" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/lead.jpg')">
                 <div class="container text-center text-white">
-                    <p>Skewed is a <span class="text-orange">slightly wonky</span><br>landing page template</p>
-                    <!-- 
-                    <figure>
-                        <img src="img/skew-full-bottom-ccw.png" alt=""/>
-                    </figure>
-                    -->
+                    <p id="top-title">Skewed is a <span class="text-orange">slightly wonky</span><br>landing page template</p>
                 </div><!-- CONTAINER end -->
+<!--                <figure>
+                    <img src="img/skew-full-bottom-ccw.png" alt=""/>
+                </figure>-->
             </section><!-- Section TOP end -->
 
             <section class="about typical-paddings" id="about">
@@ -77,7 +73,7 @@
                             <article>
                                 <h2 class="text-black-222">About us</h2>
                                 <h4 class="text-orange">Dolor sit amet, consectetur adipiscing elit.</h4>
-                                <p class="text-grey">
+                                <p class="text-grey-b1">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                     Phasellus dictum enim diam, at condimentum purus facilisis in. 
                                     Aenean convallis tempor nulla, in elementum odio ornare vitae. 
@@ -116,14 +112,18 @@
                     <h4 class="text-orange">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                     <div class="row">
                         <div class="col-12 col-sm-6 col-lg-3">
-                            <article class="team-member text-center">
+                            <article class="text-center">
                                 <figure>
                                     <img src="img/team-1.jpg" alt=""/>
-                                    <div class="team-hover">
-                                        <div>
-                                            <a href="#" class="fa fa-facebook"></a>
-                                            <a href="#" class="fa fa-linkedin"></a>
-                                        </div>
+                                    <div class="team-hover text-center">
+                                        <ul>    
+                                            <li>
+                                                <a href="#" class="fa fa-facebook text-white"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="fa fa-twitter text-white"></a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </figure>
                                 <h5><a href="#" class="text-black-222">Jonathan Smith</a></h5>
@@ -178,18 +178,6 @@
                     </div><!-- ROW end -->
                 </div><!-- CONTAINER end -->
             </section><!-- Section TEAM end -->
-                        
-                        
-                        
-                        
-                        
-                       
-
-
-
-
-
-
 
             <section class="parallax" id="parallax" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/paralax.jpg')">
                 <div class="container">
@@ -198,7 +186,7 @@
                             <article>
                                 <h2 class="text-white">Here’s Some Parallax</h2>
                                 <h4 class="text-orange">(If you’re into that kind of thing)</h4>
-                                <p class="text-grey">
+                                <p class="text-grey-b1">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                     Phasellus dictum enim diam, at condimentum purus facilisis in. 
                                     Aenean convallis tempor nulla, in elementum odio ornare vitae. 
@@ -210,369 +198,197 @@
                         </div> 
                     </div><!-- ROW end -->
                 </div><!-- CONTAINER end -->
-            </section><!-- Section ABOUT end -->
+            </section><!-- Section PARALLAX end -->
 
+            <section class="principles typical-paddings" id="principles">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-6">
+                            <figure class="text-center">
+                                <img src="img/principles.jpg" alt=""/>
+                            </figure>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <article>
+                                <h2 class="text-black-222">Our Principles</h2>
+                                <h4 class="text-orange">Dolor sit amet, consectetur adipiscing elit.</h4>
+                                <p class="text-grey-b1">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Phasellus dictum enim diam, at condimentum purus facilisis in. 
+                                    Aenean convallis tempor nulla, in elementum odio ornare vitae. 
+                                    In faucibus tempus ante vitae pretium. Ut facilisis elit sapien, 
+                                    sed suscipit ex auctor vitae. 
+                                </p>
+                                <a href="#" class="btn btn-outline-warning">Find out more</a>
+                            </article>
+                        </div> 
+                    </div><!-- ROW end -->
+                </div><!-- CONTAINER end -->
+            </section><!-- Section PRINCIPLES end -->
 
+            <section class="portfolio typical-paddings text-center" id="portfolio" style="background-color: #f7cc4b;">
+                <div class="container">
+                    <h2 class="text-white">Portfolio</h2>
+                    <h4 class="text-grey-444">Some of our latest work</h4>
+                    <div class="row justify-content-around">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="text-center">
+                                <figure>
+                                    <img src="img/item-1.jpg" alt=""/>
+                                    <div class="hover">
+                                        <a href="#" title="search-icon">
+                                            <span class="fa fa-search"></span>
+                                        </a>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article>
+                                <figure>
+                                    <img src="img/item-2.jpg" alt=""/>
+                                    <div class="hover">
+                                        <a href="#" title="search-icon">
+                                            <span class="fa fa-search"></span>
+                                        </a>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article>
+                                <figure>
+                                    <img src="img/item-3.jpg" alt=""/>
+                                    <div class="hover">
+                                        <a href="#" title="search-icon">
+                                            <span class="fa fa-search"></span>
+                                        </a>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article>
+                                <figure>
+                                    <img src="img/item-4.jpg" alt=""/>
+                                    <div class="hover">
+                                        <a href="#" title="search-icon">
+                                            <span class="fa fa-search"></span>
+                                        </a>
+                                    </div>
+                                </figure>
+                            </article>
+                        </div>
+                    </div><!-- ROW end -->
+                </div><!-- CONTAINER end -->
+            </section><!-- Section PORTFOLIO end -->
 
-            <!--            <section class="service py-4 py-lg-5" id="service">
-                            <div class="container">
-                                <h4 class="text-center text-uppercase dash mb-4">what we do</h4>
-                                <p class="text-center mb-5">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                                    been the industry's standard dummy text 
-                                </p>
-            
-            
-                                <div class="row">
-                                    <div class="col-12 col-md-6 mb-4">
-                                        <article class="service-item p-3">
-                                            <div class="row">
-                                                <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-                                                    <div class="service-icon text-center">
-                                                        <span class="fa fa-desktop"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-sm-8">
-                                                    <div class="service-description">
-                                                        <h5 class="text-uppercase  dash">UI / UX DESIGN</h5>
-                                                        <p class="">
-                                                            Lorem Ipsum is simply dummy text thprinting 
-                                                            andthe industry's standard dummy text lorem Ipsum is simply dummy
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-md-6 mb-4">
-                                        <article class="service-item p-3">
-                                            <div class="row">
-                                                <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-                                                    <div class="service-icon text-center">
-                                                        <span class="fa fa-star-o"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-sm-8">
-                                                    <div class="service-description">
-                                                        <h5 class="text-uppercase  dash">branding & identity</h5>
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text thprinting 
-                                                            andthe industry's standard dummy text lorem Ipsum is simply dummy
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-md-6 mb-4">
-                                        <article class="service-item p-3">
-                                            <div class="row">
-                                                <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-                                                    <div class="service-icon text-center">
-                                                        <span class="fa fa-mobile"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-sm-8">
-                                                    <div class="service-description">
-                                                        <h5 class="text-uppercase  dash">app design</h5>
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text thprinting 
-                                                            andthe industry's standard dummy text lorem Ipsum is simply dummy
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-md-6 mb-4">
-                                        <article class="service-item p-3">
-                                            <div class="row">
-                                                <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-                                                    <div class="service-icon text-center">
-                                                        <span class="fa fa-pencil-square-o"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-sm-8">
-                                                    <div class="service-description">
-                                                        <h5 class="text-uppercase  dash">Print design</h5>
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text thprinting 
-                                                            andthe industry's standard dummy text lorem Ipsum is simply dummy
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
+            <section class="achievements typical-paddings text-center" id="achievements">
+                <div class="container">
+                    <h2 class="text-black-222 mb-1">Our Achievements</h2>
+                    <h4 class="text-orange mb-5">We keep track of this stuff!</h4>
+                    <div class="row achievements-wrapper">
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                            <article class="achievements-item text-center">
+                                <h3 class="text-black-222 mb-2"><span class="fa fa-flag-o"></span></h3>
+                                <h5 class="text-orange lato mb-2">265</h5>
+                                <h6 class="text-grey-666">Projects Completed</h6>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                            <article class="achievements-item text-center">
+                                <h3 class="text-black-222 mb-2"><span class="fa fa-smile-o"></span></h3>
+                                <h5 class="text-orange lato mb-2">198</h5>
+                                <h6 class="text-grey-666">Happy Clients</h6>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                            <article class="achievements-item text-center">
+                                <h3 class="text-black-222 mb-2"><span class="fa fa-lightbulb-o"></span></h3>
+                                <h5 class="text-orange lato mb-2">1.898</h5>
+                                <h6 class="text-grey-666">Problems Solved</h6>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                            <article class="achievements-item text-center">
+                                <h3 class="text-black-222 mb-2"><span class="fa fa-moon-o"></span></h3>
+                                <h5 class="text-orange lato mb-2">365</h5>
+                                <h6 class="text-grey-666">All-nighters Pulled</h6>
+                            </article>
+                        </div>
+                    </div><!-- ROW end -->
+                    <div class="row">
+                        <blockquote class="blockquote text-center">
+                            <p class="text-black-222 mb-4">
+                                Lorem ipsum dolor sit amet, consectetur
+                                <span class="text-orange">adipiscing elit</span>.
+                                Fusce tristique finibus felis, eget molestie eros placerat vitae. 
+                                Ut ut ipsum augue.
+                            </p>
+                            <footer class="blockquote-footer text-grey-bbb">Alfred Johnson, CEO Youtech</footer>
+                        </blockquote>
+                    </div><!-- ROW end -->
+                </div><!-- CONTAINER end -->
+            </section><!-- Section ACHIEVEMENTS end -->
+
+            <section class="subscribe typical-paddings" id="subscribe" style="background-color: #f7cc4b;">
+                <div class="container text-center">
+                    <h2 class="text-white">Keep Up To Date</h2>
+                    <h4 class="text-black-222">Subscribe to our mailing list</h4>
+                    <div class="row justify-content-center">
+                        <form>
+                            <div class="form-row">
+                                <div class="col-12 col-lg-5">
+                                    <input type="text" class="form-control" placeholder="Your name" id="name">
+                                </div>
+                                <div class="col-12 col-lg-5">
+                                    <input type="email" class="form-control" placeholder="Email address" id="email">
+                                </div>
+                                <div class="col-12 col-lg-2">
+                                    <button type="submit" class="btn btn-primary bg-black-222" id="subscribe-button">Subscribe</button>
                                 </div>
                             </div>
-                        </section>
-            
-                        <section class="portfolio text-white" id="portfolio" style="background-image: linear-gradient(to right, rgba(232,76,61,0.85), rgba(232,76,61,0.85)), url('img/services.jpg')">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-6 col-md-3 mb-4 mb-md-0">
-                                        <article class="portfolio-item">
-                                            <h2>
-                                                <span class="fa fa-thumbs-up"></span>
-                                                <span>1245</span>
-                                            </h2>
-                                            <h5 class="dash dash-white text-uppercase">project completed</h5>
-                                        </article>
-                                    </div>
-                                    <div class="col-6 col-md-3 mb-4 mb-md-0">
-                                        <article class="portfolio-item">
-                                            <h2>
-                                                <span class="fa fa-heart-o"></span>
-                                                <span>2400</span>
-                                            </h2>
-                                            <h5 class="dash dash-white text-uppercase">people loved</h5>
-                                        </article>
-                                    </div>
-                                    <div class="col-6 col-md-3 mb-4 mb-md-0">
-                                        <article class="portfolio-item">
-                                            <h2>
-                                                <span class="fa fa-star-o"></span>
-                                                <span>1245</span>
-                                            </h2>
-                                            <h5 class="dash dash-white text-uppercase">identify earn</h5>
-                                        </article>
-                                    </div>
-                                    <div class="col-6 col-md-3 mb-4 mb-md-0">
-                                        <article class="portfolio-item">
-                                            <h2>
-                                                <span class="fa fa-bullseye"></span>
-                                                <span>1245</span>
-                                            </h2>
-                                            <h5 class="dash dash-white text-uppercase">busines donor</h5>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-            
-                        <section class="team py-5 text-center" id="team">
-                            <div class="container">
-                                <h4 class="text-uppercase dash mb-4 text-center">MEET OUR CREW</h4>
-                                <p class="mb-5">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                                    been the industry's standard dummy text 
-                                </p>
-                                <div class="row">
-            
-                                    <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-md-0">
-                                        <article class="team-member">
-                                            <figure>
-                                                <img src="img/team-1.jpg" alt=""/>
-                                                <div class="hover p-4">
-                                                    <p>
-                                                        Hi ! I m Redwan from bangladesh.
-                                                        I am a Professional graphic designer
-                                                        & expert on print and UI/ UX .
-                                                    </p>
-                                                    <div>
-                                                        <a href="#" class="fa fa-facebook"></a>
-                                                        <a href="#" class="fa fa-linkedin"></a>
-                                                    </div>
-                                                </div>
-                                            </figure>
-                                            <h5><a href="#" class="text-uppercase">ibn hasan</a></h5>
-                                            <p class="text-uppercase">CEO</p>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-md-0">
-                                        <article class="team-member">
-                                            <figure>
-                                                <img src="img/team-2.jpg" alt=""/>
-                                                <div class="hover p-4">
-                                                    <p>
-                                                        Hi ! I m Redwan from bangladesh.
-                                                        I am a Professional graphic designer
-                                                        & expert on print and UI/ UX .
-                                                    </p>
-                                                    <div>
-                                                        <a href="#" class="fa fa-facebook"></a>
-                                                        <a href="#" class="fa fa-linkedin"></a>
-                                                    </div>
-                                                </div>
-                                            </figure>
-                                            <h5><a href="#" class="text-uppercase">RAF REDWAN</a></h5>
-                                            <p class="text-uppercase">TOFAIL AHMED</p>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-md-0">
-                                        <article class="team-member">
-                                            <figure>
-                                                <img src="img/team-3.jpg" alt=""/>
-                                                <div class="hover p-4">
-                                                    <p>
-                                                        Hi ! I m Redwan from bangladesh.
-                                                        I am a Professional graphic designer
-                                                        & expert on print and UI/ UX .
-                                                    </p>
-                                                    <div>
-                                                        <a href="#" class="fa fa-facebook"></a>
-                                                        <a href="#" class="fa fa-linkedin"></a>
-                                                    </div>
-                                                </div>
-                                            </figure>
-                                            <h5><a href="#" class="text-uppercase">BARI OWALAR MEYE</a></h5>
-                                            <p class="text-uppercase">DEV</p>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-md-0">
-                                        <article class="team-member">
-                                            <figure>
-                                                <img src="img/team-4.jpg" alt=""/>
-                                                <div class="hover p-4">
-                                                    <p>
-                                                        Hi ! I m Redwan from bangladesh.
-                                                        I am a Professional graphic designer
-                                                        & expert on print and UI/ UX .
-                                                    </p>
-                                                    <div>
-                                                        <a href="#" class="fa fa-facebook"></a>
-                                                        <a href="#" class="fa fa-linkedin"></a>
-                                                    </div>
-                                                </div>
-                                            </figure>
-                                            <h5><a href="#" class="text-uppercase">TOFAIL AHMED</a></h5>
-                                            <p class="text-uppercase">TOFAIL AHMED</p>
-                                        </article>
-                                    </div>
-                                </div>
-            
-                            </div>
-                        </section>
-            
-            
-                        <section class="subscribe py-5" id="blog" style="background-image: linear-gradient(to right, rgba(232,76,61,0.85), rgba(232,76,61,0.85)), url('img/newsletter.jpg')">
-                            <div class="container">
-                                <div class="row justify-content-around align-items-center">
-                                    <div class="col-12 col-md-5">
-                                        <article class="text-white">
-                                            <h5 class="text-uppercase dash dash-white">SUBSCRIBE TO UPDATE</h5>
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                                            </p>
-                                        </article>
-                                    </div>
-                                    <div class="col-12 col-md-5">
-                                        <form method="post" action="">
-                                            <div class="form-group">
-                                                <div class="input-group">
-                                                    <input type="email" name="email" value="" class="form-control" placeholder="Enter email address" >
-                                                    <div class="input-group-append">
-                                                        <button class="btn  text-uppercase" type="submit" name="newsletter" value="send">subscribe</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="contact py-5" id="contact">
-                            <div class="container">
-                                <h4 class="text-center dash mb-4 text-uppercase">GET IN TOUCH WITH US</h4>
-                                <p class="mb-5 text-center">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                                    been the industry's standard dummy text 
-                                </p>
-            
-                                <div class="row">
-                                    <div class="col-12 col-lg-7">
-                                        <form class="contact-form" method="post" action="">
-                                            <div class="row">
-                                                <div class="col-12 col-sm-6">
-                                                    <div class="form-group">
-                                                        <input type="text" name="name" value="" class="form-control" placeholder="Your name">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-sm-6">
-                                                    <div class="form-group">
-                                                        <input type="email" name="email" value="" class="form-control" placeholder="Email Address">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <div class="form-group">
-                                                        <textarea class="form-control" name="message" placeholder="Message"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <button class="btn btn-danger px-5 text-uppercase">SUBMIT NOW</button>
-                                                </div>
-                                            </div>
-                                        </form>  
-                                    </div>
-            
-                                    <div class="col-12 col-lg-5">
-                                        <article>
-                                            <p class="d-flex"> <span class="fa fa-map-marker fa-2x text-danger mr-2"></span> 65,Prothemers Tower-1200 D 
-                                                Block Comilla, Bangladesh
-                                            </p>
-                                            <p class="d-flex align-items-center"><span class="fa fa-envelope-o fa-2x text-danger mr-2"></span><a href="mailto:Info@Addaxx.com">Info@Addaxx.com</a></p>
-                                            <p class="d-flex align-items-center"><span class="fa fa-phone text-danger fa-2x mr-2"></span>+8805-5823-582</p>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        
-                        <section>
-                            
-                            <p>Sta je ovo</p>
-                            
-                            
-                        </section>
-                        
-                        <section class="valjda">
-                            
-                            <p>Valjda</p>
-                            
-                            
-                        </section>
-                        
-                        <section class="cocoa">
-                            
-                            <p>Cocoa</p>
-                            
-                            
-                        </section>
-                        
-                        <section class="biber">
-                            
-                            <p>Biber</p>
-                            
-                            
-                        </section>
-            
-            
-                    </main>
-                    
-                    
-                    <footer class="py-5 bg-danger">
-                        <div class="container">
-                            <p class="text-center text-white">
-                                Copyright Redwan . All Rights Reserved
+                        </form>
+                    </div><!-- ROW end -->
+                </div><!-- CONTAINER end -->
+            </section><!-- Section SUBSCRIBE end -->
+
+            <footer class="bg-black-222 typical-paddings">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="social text-white">    
+                                <li>
+                                    <a href="#" class="fa fa-facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa fa-google-plus"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa fa-dribbble"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa fa-instagram"></a>
+                                </li>
+                            </ul>
+                        </div>                           
+                        <div class="col-12">
+                            <p class="copyright text-center text-grey-bbb">
+                                Copyright 2015 <a href="#"><span class="text-orange">Skewed</span></a>. All Rights Reserved 
                             </p>
                         </div>
-                    </footer>-->
-
-
-
-
-
-
-
-
-
-
+                    </div><!-- ROW end -->
+                </div><!-- CONTAINER end -->
+            </footer>
 
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
             <script src="js/jquery.min.js" type="text/javascript"></script>
             <script src="js/poper.js" type="text/javascript"></script>
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
+            
     </body>
 </html>

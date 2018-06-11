@@ -26,10 +26,10 @@
  
     .top,
     .parallax {
-    padding: 200px 0 150px;
+    padding: 300px 0;
     }
 
-    .top p{
+    #top-title {
         font-size: 2rem;
     }
  
@@ -46,6 +46,13 @@
     width: 70%;
     }
     
+/* SUBSCRIBE */
+
+.subscribe form {
+    width: 50%;
+}
+
+    
 }
 
 
@@ -53,10 +60,10 @@
   
  /*GENERAL SETTINGS*/
  
-    body {
-    font-size: 1.15rem;
+    html {
+    font-size: 16px;
     }
-    
+ 
     section h2 {
     font-size: 2.5rem;
     margin-bottom: 1.25rem;
@@ -75,17 +82,21 @@
     padding: 75px 0;
     }
 
-    
+/*HEADER*/
+
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+ 
  /*TOP*/  
  
     .top,
     .parallax {
-    padding: 250px 0 200px;
+    padding: 275px 0;
     }
 
-    
-    .top p{
-        font-size: 2.5rem;
+    #top-title {
+        font-size: 2.75rem;
     }
  
 /* ABOUT */
@@ -101,6 +112,36 @@
     width: 60%;
     }
     
+ /* PORTFOLIO */
+
+    .portfolio article {
+        margin-bottom: 80px;
+    }
+
+    
+/* FOOTER */ 
+
+    footer .social li {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 12px;
+    }
+    
+    footer .social li .fa {
+    font-size: 24px;
+    color: #fff;
+    }
+
+    .copyright {
+    font-size: 1rem;
+    margin-bottom: 0;
+    } 
+
 } 
 
 
@@ -131,13 +172,6 @@
     .navbar-brand{
         font-size: 3rem;
     }
-
-    .nav-item {
-        background-color: transparent;
-        text-align: left;
-        margin-left: 8px;
-        border-bottom: none;
-    }
  
  /*TOP*/  
  
@@ -146,8 +180,8 @@
     padding: 350px 0 265px;
     }
  
-    .top p {
-    font-size: 3rem;
+    #top-title {
+    font-size: 3.5rem;
     }
     
  /* ABOUT */
@@ -172,7 +206,29 @@
     width: 50%;
     }
     
-         
+/* PRINCIPLES */
+
+    .principles figure {
+    margin-bottom: 0;
+    }
+    
+    .principles article {
+    margin: 0;
+    }
+    
+/* PORTFOLIO */
+
+    .portfolio article {
+        margin-bottom: 0;
+    }
+
+    
+/* SUBSCRIBE */
+    
+ .subscribe form {
+    width: 70%;
+    }
+    
 }
 
 
@@ -201,8 +257,11 @@
 /*HEADER*/
 
     .nav-item {
-       margin-left: 15px;
-    } 
+    background-color: transparent;
+    text-align: right;
+    margin-left: 15px;
+    border-bottom: none;
+    }
     
 /*TOP*/  
  
@@ -211,9 +270,17 @@
        padding: 400px 0 315px;
     }
    
-   .top p{
-       font-size: 4rem;
+   #top-title {
+       font-size: 5rem;
     }
+    
+/* SUBSCRIBE */
+
+.subscribe form {
+    max-width: 800px;
+    }
+    
+         
   
 }
 
