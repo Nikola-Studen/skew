@@ -71,6 +71,10 @@ section p {
     margin-bottom: 2.5rem;
 }
 
+.btn {
+    padding: 7px 35px;
+}
+
 
 /* HEADER */
 
@@ -84,7 +88,7 @@ section p {
 }
 
 .navbar-light .navbar-toggler:hover {
-    background-color: #f7cc4b; !important;
+    background-color: #f7cc4b !important;
 }
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -128,35 +132,12 @@ section p {
     background-attachment: fixed;
 }
 
-/*.top:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;*/
-/*    height: 120px;*/
-/*    background-size: 100% 100%; 
-    z-index: 3;
-    background-image: url("img/skew-full-bottom-ccw-png");*/
-
 
 #top-title {
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 0;
 }
-
-.top figure {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-size: 100% 100%; 
-    z-index: 3;
-    background-image: url("img/skew-full-bottom-ccw-png");
-} 
 
 
 /* Section ABOUT */
@@ -168,6 +149,11 @@ section p {
 
 /* Section VIDEO */
 
+.video {
+    position: relative;
+    padding: 200px 0;
+}
+    
 
 /* Section TEAM */
 
@@ -238,6 +224,7 @@ section p {
 .team-hover .fa {
     line-height: 44px;
     font-size: 24px; 
+}
 
 .team article:hover .team-hover {
     display: block;
@@ -254,6 +241,10 @@ section p {
 
 /* Section PARALLAX */
 
+.parallax {
+    position: relative;
+}
+    
 .parallax article {
     margin: 0 auto;
     width: 90%;
@@ -273,6 +264,11 @@ section p {
 
 /* Section PORTFOLIO */
 
+.portfolio {
+    position: relative;
+    padding: 200px 0;
+}
+    
 .portfolio article {
     max-width: 280px;
     margin-bottom: 40px;
@@ -358,6 +354,12 @@ section p {
 
 /* Section SUBSCRIBE */
 
+.subscribe {
+    position: relative;
+    padding: 200px 0 100px;
+}
+    
+
 .subscribe form {
     width: 80%;
     max-width: 800px;
@@ -368,6 +370,8 @@ section p {
     background-color: #f7cc4b;
     color: #fff;
     border: 2px solid #fff;
+    padding-top: 11px;
+    padding-bottom: 11px;
     margin-bottom: 20px;
 }
 
@@ -375,6 +379,8 @@ section p {
     background-color: #222;
     border-color: transparent;
     color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .subscribe #subscribe-button:hover {
@@ -384,19 +390,19 @@ section p {
 }
 
 input:-webkit-input-placeholder {
-color: #fff !important;
+    color: #fff !important;
 }
  
 input:-moz-placeholder { /* Firefox 18- */
-color: #fff !important;  
+    color: #fff !important; 
 }
  
 input:-moz-placeholder {  /* Firefox 19+ */
-color: #fff !important;  
+    color: #fff !important;  
 }
  
 input:-ms-input-placeholder {  
-color: #fff !important;  
+    color: #fff !important; 
 }
 
 
@@ -454,4 +460,63 @@ footer .social li:hover {
 
 .copyright a span:hover {
     color: #fff;
+}
+
+
+/* BACKGROUND WHITE TRIANGLES */
+
+.top:after,
+.video:after,
+.portfolio:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    width: 100%;
+    background-image: url("../img/skew-full-bottom-ccw.png");
+    background-size: 100% 100%; 
+    z-index: 2;
+}
+
+.video:before,
+.portfolio:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    width: 100%;
+    background-image: url("../img/skew-full-top-ccw.png");
+    background-size: 100% 100%; 
+    z-index: 3;
+}
+
+.parallax:before,
+.subscribe:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    width: 100%;
+    background-image: url("../img/skew-full-top-cw.png");
+    background-size: 100% 100%; 
+    z-index: 4;
+}
+
+.parallax:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    width: 100%;
+    background-image: url("../img/skew-full-bottom-cw.png");
+    background-size: 100% 100%; 
+    z-index: 5;
 }
